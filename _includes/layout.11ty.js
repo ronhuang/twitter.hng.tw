@@ -44,6 +44,7 @@ module.exports = async function(data) {
 		<title>${data.metadata.username}’s Twitter Archive${titleTweetNumberStr}</title>
 		<meta name="description" content="${meta_description}" />
 
+		<link rel="shortcut icon" href="/img/favicon.ico">
 		<link rel="profile" href="https://microformats.org/profile/hatom">
 		<link rel="stylesheet" href="/assets/style.css">
 		<script src="/assets/script.js" type="module"></script>
